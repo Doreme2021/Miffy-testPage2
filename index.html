@@ -13,16 +13,20 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
     .button1 {color:hsl(228, 45%, 44%);border:none;}
-    .button2 {color:white;background-color:hsl(228, 45%, 44%);border:none;  border-radius:10px}
+    .button2 {color:white;background-color:hsl(228, 45%, 44%);border:none;  border-radius:10px;cursor: pointer;}
+    .colum{display:flex;flex-direction:column;}
+    .absolute{position:absolute;z-index: -1;}
+    .img{width:414px;}
 
 
   </style>
 </head>
 <body>
-  <img src="/images/pattern-background-desktop.svg" alt="">
+  <img class="absolute " src="/images/pattern-background-desktop.svg" alt="">
 
-  <div>
+  <div class="colum img">
       <img src="./images/illustration-hero.svg" alt="">
+
     Order Summary
 
     You can now listen to millions of songs, audiobooks, and podcasts on any 
